@@ -1,4 +1,7 @@
-// swift-tools-version: 6.3;(experimentalCGen)
+// swift-tools-version: 6.2
+// OmniRec fork: upstream declares 6.3;(experimentalCGen) only for the Linux
+// CUDA build plugin (#413), which Apple platforms never build. 6.2 lets
+// Xcode 26.0-26.3 (Swift 6.2) resolve and build the package for iOS/macOS.
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 // Copyright © 2024 Apple Inc.
 
